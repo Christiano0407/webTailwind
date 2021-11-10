@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav {
+  @apply bg-gray-800
+flex
+justify-between
+items-center
+lg:justify-start;
+}
+.links {
+  @apply lg:block hidden w-1/6 md:w-4/6;
+}
+.menu {
+  @apply flex items-center justify-center gap-5;
+}
+.link {
+  @apply text-white block p-5 font-bold hover:text-yellow-500;
+}
+/* npm run build:css == compilar*/
