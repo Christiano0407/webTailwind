@@ -4,20 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="png/icon"
+      sizes="32*32"
+      href="/public/img/logo.png"
+    />
     <link rel="stylesheet" href="/public/css/main.css" />
     <title>Tailwind Project CSS | Web Mobile</title>
   </head>
   <body>
-    <div
-      class="
-        text-white text-5xl text-center
-        p-4
-        bg-gray-500
-        m-0
-        hover:bg-red-900 hover:text-gray-900
-      "
-    >
+    <header class="container bg-yellow-300 mx-auto">
       Hello World!
-    </div>
+      <nav class="nav bg-gray-800 flex justify-between items-center">
+        <div class="logo p-2">
+          <img class="object-cover" src="/public/img/logo.png" alt="logo"
+          width="100%"">
+        </div>
+        <div class="links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Play Together</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Bowse Fury</a></li>
+            <li><a href="#">Buy Now</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
