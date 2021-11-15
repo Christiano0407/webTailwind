@@ -34,8 +34,8 @@ lg:justify-start;
   @apply text-white;
 }
 .mobile {
-  @apply h-full w-full absolute z-50 left-0 text-center bg-gray-50;
+  @apply w-full absolute z-50 left-0 text-center bg-gray-800 my-7;
 }
 .link-burger {
-  @apply text-white p-5 font-bold hover:text-yellow-500 my-4 inline-block;
+  @apply text-white p-1 font-bold hover:text-yellow-500 my-1 inline-block;
 }
