@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* npm run build:css == compilar*/
 .nav {
   @apply bg-gray-800
 flex
@@ -18,7 +19,20 @@ lg:justify-start;
 .link {
   @apply text-white block p-5 font-bold hover:text-yellow-500;
 }
-.link-btn {
-  @apply border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black;
+.link-one {
+  @apply border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black transition duration-500;
 }
-/* npm run build:css == compilar*/
+.link-two {
+  @apply rounded-full bg-red-500 text-white font-bold px-4 py-3;
+}
+
+/*= Menu Burger / Mobile / Más pequeño =*/
+.menu-burger {
+  @apply block lg:hidden w-1/6 lg:w-4/6;
+}
+.mobile {
+  @apply hidden w-full absolute z-50 left-0 text-center bg-gray-50;
+}
+.link-burger {
+  @apply text-white;
+}
