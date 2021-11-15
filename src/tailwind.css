@@ -18,4 +18,7 @@ lg:justify-start;
 .link {
   @apply text-white block p-5 font-bold hover:text-yellow-500;
 }
+.link-btn {
+  @apply border-4 border-yellow-400 text-white font-bold p-2 rounded-full hover:bg-white hover:text-black;
+}
 /* npm run build:css == compilar*/
