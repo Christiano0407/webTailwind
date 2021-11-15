@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: (theme) => ({
         "wave-pattern": `url(../img/wave-white.png)`,
+        "wave-pattern-dots": `url(../img/wave-pattern-dots.png)`,
       }),
     },
     minWidth: {

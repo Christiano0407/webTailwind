@@ -17769,6 +17769,10 @@ video {
   background-image: url(../img/wave-white.png);
 }
 
+.bg-wave-pattern-dots {
+  background-image: url(../img/wave-pattern-dots.png);
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -32019,6 +32023,37 @@ video {
 .link-burger:hover {
   --tw-text-opacity: 1;
   color: rgba(245, 158, 11, var(--tw-text-opacity));
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 1rem;
+  border-width: 8px;
+  border-color: transparent;
+  --tw-bg-opacity: 1;
+  background-color: rgba(0, 0, 0, var(--tw-bg-opacity));
+}
+
+.btn:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+}
+
+.btn {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.btn:hover {
+  --tw-text-opacity: 1;
+  color: rgba(0, 0, 0, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -49148,6 +49183,10 @@ video {
 
   .sm\:bg-wave-pattern {
     background-image: url(../img/wave-white.png);
+  }
+
+  .sm\:bg-wave-pattern-dots {
+    background-image: url(../img/wave-pattern-dots.png);
   }
 
   .sm\:from-transparent {
@@ -80374,6 +80413,10 @@ video {
     background-image: url(../img/wave-white.png);
   }
 
+  .md\:bg-wave-pattern-dots {
+    background-image: url(../img/wave-pattern-dots.png);
+  }
+
   .md\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -111596,6 +111639,10 @@ video {
 
   .lg\:bg-wave-pattern {
     background-image: url(../img/wave-white.png);
+  }
+
+  .lg\:bg-wave-pattern-dots {
+    background-image: url(../img/wave-pattern-dots.png);
   }
 
   .lg\:from-transparent {
@@ -142822,6 +142869,10 @@ video {
     background-image: url(../img/wave-white.png);
   }
 
+  .xl\:bg-wave-pattern-dots {
+    background-image: url(../img/wave-pattern-dots.png);
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -174044,6 +174095,10 @@ video {
 
   .\32xl\:bg-wave-pattern {
     background-image: url(../img/wave-white.png);
+  }
+
+  .\32xl\:bg-wave-pattern-dots {
+    background-image: url(../img/wave-pattern-dots.png);
   }
 
   .\32xl\:from-transparent {
