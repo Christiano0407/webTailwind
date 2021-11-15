@@ -31985,11 +31985,16 @@ video {
   }
 }
 
+.link-mobile {
+  --tw-text-opacity: 1;
+  color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
 .mobile {
   position: absolute;
   left: 0px;
   z-index: 50;
-  display: none;
+  height: 100%;
   width: 100%;
   --tw-bg-opacity: 1;
   background-color: rgba(249, 250, 251, var(--tw-bg-opacity));
@@ -31997,8 +32002,18 @@ video {
 }
 
 .link-burger {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 1.25rem;
+  font-weight: 700;
   --tw-text-opacity: 1;
   color: rgba(255, 255, 255, var(--tw-text-opacity));
+}
+
+.link-burger:hover {
+  --tw-text-opacity: 1;
+  color: rgba(245, 158, 11, var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {

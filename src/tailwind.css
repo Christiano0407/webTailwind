@@ -30,9 +30,12 @@ lg:justify-start;
 .menu-burger {
   @apply block lg:hidden w-1/6 lg:w-4/6;
 }
+.link-mobile {
+  @apply text-white;
+}
 .mobile {
-  @apply hidden w-full absolute z-50 left-0 text-center bg-gray-50;
+  @apply h-full w-full absolute z-50 left-0 text-center bg-gray-50;
 }
 .link-burger {
-  @apply text-white;
+  @apply text-white p-5 font-bold hover:text-yellow-500 my-4 inline-block;
 }
